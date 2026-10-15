@@ -14,14 +14,14 @@ I build complete web products end-to-end: PostgreSQL schemas, REST APIs, authent
 
 | Project | What it is | Stack |
 |---|---|---|
-| **ESN Resource Manager** · [frontend](https://github.com/salahbnh/esn_frontend) | *Client project.* Recruitment, staffing and contract platform for an IT consulting firm: ~100 REST endpoints, 4-role RBAC via Keycloak, multi-step approval workflow with generated PDFs, audit log, 60+ test files | Next.js 15, Express, TypeScript, Prisma, PostgreSQL, Keycloak, MinIO, Playwright |
+| **ESN Resource Manager** · [backend](https://github.com/salahbnh/esn_backend) · [frontend](https://github.com/salahbnh/esn_frontend) | *Client project.* Recruitment, staffing and contract platform for an IT consulting firm: ~100 REST endpoints, 4-role RBAC via Keycloak, multi-step approval workflow with generated PDFs, audit log, 460+ backend tests in GitHub Actions CI | Next.js 15, Express, TypeScript, Prisma, PostgreSQL, Keycloak, MinIO, Playwright |
 | **FinanceOS** · *private, client project* | Multi-tenant finance SaaS: ~130 endpoints, JWT + TOTP 2FA, Stripe subscriptions, bank CSV import with rule + LLM categorization, 390+ JUnit/Testcontainers tests | Java 21, Spring Boot 3.5, PostgreSQL, Redis, Flyway, Next.js 16 |
 | [**Multi-Tenant SaaS Starter**](https://github.com/salahbnh/multi-tenant-saas-starter) | NestJS backend where tenant isolation is enforced by PostgreSQL row-level security; rotating refresh tokens with reuse detection *(in progress)* | NestJS, PostgreSQL, Docker, CI |
 | [**NexusAI: AI SaaS Platform**](https://github.com/salahbnh/ai_saas) · [live](https://ai-saas-phi-nine.vercel.app) | 10 AI tools (chat, image, voice, code, writing) with auth, Stripe billing and usage metering | Next.js, TypeScript, Prisma, Stripe |
 | [**E-Commerce REST API**](https://github.com/salahbnh/ecommerce-rest-api) | Layered Express/MongoDB API with Stripe payments and security hardening | Node.js, Express, MongoDB |
 | [**MedVR: Telemedicine**](https://github.com/salahbnh/MedVR) | Real-time video consultations, with medical records secured by Solidity smart contracts | React, Node.js, Socket.IO, Solidity |
 
-*Code for the private client projects can be walked through on request.*
+*FinanceOS code can be walked through on request.*
 
 ---
 
